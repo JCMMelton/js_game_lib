@@ -1,5 +1,4 @@
 
-
 //
 //         								MAP
 //
@@ -155,32 +154,8 @@ Sprite.prototype.move = function(x, y){
 
 
 /*
-Sprite.prototype.get_vector = function(){
-	//this.vector = {'mag': 0,'ang': 0};
-	//this.x_vect = (parseFloat(this.old_x*100000) - parseFloat(this.x_pos*100000))*100;
-	this.x_vect = (this.old_x*100 - this.x_pos*99)*.999;
-	//console.log((this.old_x*100 - this.x_pos*99)*.999);
-	//this.y_vect = (this.old_y - this.y_pos)*100;
-	this.y_vect = (this.old_y*100 - this.y_pos*99)*.999;
-	var mx = Math.abs(this.x_vect);
-	var my = Math.abs(this.y_vect);
-	//console.log(this.x_vect,this.y_vect);
-	var mag = Math.sqrt((mx*mx)+(my*my));
-	var ang = Math.cos((my/mx));
-	console.log(mag, ang);
-	this.vector = {'mag': mag, 'ang': ang};
-	return this.vector;
-	// if(x_vect>0){
 
-	// }else{
 
-	// }
-	// if(y_vect>0){
-
-	// }else{
-
-	// }
-};
 
 
 */
